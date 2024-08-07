@@ -1,0 +1,28 @@
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+  background-color: #add8e6;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.details {
+  text-align: left;
+  margin-left: 180px;
+}
+
+.icon {
+  text-align: center;
+  margin-right: 180px;
+}
+
+.icon img {
+  width: 150px;
+  height: 150px;
+}
+
+.icon h4 {
+  margin-top: 5px;
+  text-transform: capitalize;
+}

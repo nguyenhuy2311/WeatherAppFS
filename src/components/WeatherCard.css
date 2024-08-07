@@ -1,0 +1,48 @@
+.card {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 1rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  color: none;
+  background-color: transparent; /* Make background invisible */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.car img {
+  width: 100%;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent; /* Make background invisible */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: white; /* Set text color to white */
+}
+
+.details {
+  text-align: left;
+  flex: 1;
+}
+
+.icon {
+  text-align: center;
+  flex: 1;
+}
+
+.icon img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+
+.icon h4 {
+  margin-top: 5px;
+  text-transform: capitalize;
+  color: white; /* Ensure text color is white */
+}

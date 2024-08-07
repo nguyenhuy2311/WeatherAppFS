@@ -1,0 +1,49 @@
+body {
+  background-image: url("../background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.initial-state {
+  margin-top: 200px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.days-forecast {
+  margin-top: 20px;
+}
+
+.weather-cards {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.weather-cards li {
+  flex: 1;
+  margin: 10px;
+}
+
+.container h2 {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+#weatherContainer {
+  margin-top: 20px;
+  display: none; /* Hide by default */
+}
+
+#weatherContainer.show {
+  display: block; /* Show when the button is clicked */
+}
